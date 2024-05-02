@@ -1,0 +1,45 @@
+header {
+  background-color: black;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  justify-content: space-between;
+}
+.logo {
+  width: 150px;
+}
+
+.divNombre {
+  margin-right: 2rem;
+}
+
+.nombre {
+  color: rgba(255, 255, 255, 0.714);
+  font-size: 40px;
+}
+
+.divRedes {
+  display: flex;
+  gap: 1rem;
+}
+
+
+@media screen and (max-width: 695px) {
+  header {
+    justify-content: center;
+    padding-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 695px) {
+  header {
+    justify-content: center;
+
+  }
+}

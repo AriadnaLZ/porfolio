@@ -1,0 +1,24 @@
+.sectionEducation {
+  display: none;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: rgba(3, 0, 3, 0.414);
+color: white;
+padding: 2rem;
+}
+
+.imgEducation {
+  width: 200px;
+  transition: 1s;
+}
+
+.imgEducation:hover{
+  width: 400px;
+}
+
+.articleEducation {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+ align-items: center;
+}

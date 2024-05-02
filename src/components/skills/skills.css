@@ -1,0 +1,23 @@
+.sectionSkills {
+  display: none;
+  flex-direction: row;
+  background-color: rgba(3, 0, 3, 0.414);
+  padding: 2rem;
+  color: white;
+}
+.ulSkills {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.liSkills {
+  width: 150px;
+  background-color: rgba(255, 255, 255, 0.11);
+  padding: 1rem;
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-size: 20px;
+}

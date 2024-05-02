@@ -1,0 +1,26 @@
+footer {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: center;
+}
+
+.iconoRedes {
+  width: 35px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 520px) {
+  footer {
+    justify-content: center;
+    gap: 13px
+  }
+}

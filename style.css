@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono&family=Silkscreen&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  list-style: none;
+}
+
+body {
+background-image: url('https://res.cloudinary.com/dgyeaj8pu/image/upload/v1714486105/Porfolio/fondo%20de%20pantalla.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+height: 100%;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
